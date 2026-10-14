@@ -6,7 +6,7 @@ print (' \\-------------------------------//')
 print ('Gerador de chaves assimetricas')
 print ('Digite as seguintes informacoes')
 size = input('Tamanho da chave: ')
-nome = input('Nome do arquivo: ')
+nome = input('Nome das chaves: ')
 
 ##gero as chaves com o tamanho informado
 (pub,pri) = rsa.newkeys(int(size))

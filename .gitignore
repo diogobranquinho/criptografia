@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Arquivos gerados pelos exemplos (chaves e mensagens)
+*Pub.txt
+*Pri.txt
+msg*.txt
